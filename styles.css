@@ -398,6 +398,7 @@ main {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    justify-content: center;
 }
 .plans-container__card{
     scroll-snap-align: center;
