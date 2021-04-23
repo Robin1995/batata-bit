@@ -199,7 +199,7 @@ main {
     position: relative;
 }
 
-.table-container .table-container__grid div:nth-child(2n) h5::after{
+.table-container:first-child .table-container__grid div:nth-child(2n) h5::after{
     content: "";
     display: inline-block;
     width: 15px;
@@ -212,7 +212,7 @@ main {
     transform: translate(0, -50%);
     background-repeat: no-repeat;
 }
-.table-container .table-container__grid div:nth-child(4) h5::after{
+.table-container:first-child .table-container__grid div:nth-child(4) h5::after{
     background-image: url('./assets/icons/trending-up.svg');
 }
 .table-container__updateDate span, p{
@@ -268,7 +268,7 @@ main {
     width: 100%;
     min-width: 320px;
     height: auto;
-    padding: 20px 10px;
+    padding: 20px 10px 40px;
     background-color: var(--back);
 }
 .main__product-detail > span:first-child{
